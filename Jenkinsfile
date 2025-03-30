@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent Node1
   stages {
     stage('FETCH CODES FROM SCM[GIT]') {
       steps {
